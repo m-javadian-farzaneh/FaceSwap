@@ -8,7 +8,7 @@
      style="width:250px;height:250px;" />
 #### Output Image
 
-<img src="facewap.jpg"/>
+<img src="facewap.jpg" style="width:250px;height:250px;" />
 ## Project Description
 
 The Face Swap project allows users to seamlessly switch the faces of two individuals in provided images. The process involves detecting faces using the Dlib library, followed by extracting facial landmarks using a 68-point model. By using these landmarks, the boundary of the faces is determined, and a convex hull is created. This hull aids in extracting the faces from the images. Triangulation of the facial landmarks further enables the calculation of an affine transformation matrix. This matrix is used to apply the style of one face onto another, resulting in a natural-looking swap. Unlike a simple hull switch, the applied geometry transformation ensures a more fitting and realistic result. Finally, seamless cloning and median noise removal are applied to enhance the color and quality of the new image.
